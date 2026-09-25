@@ -1,5 +1,5 @@
 TYPST := typst compile --root .
-SRCS := $(wildcard slides/*.typ)
+SRCS := $(wildcard slides/*.typ) $(wildcard labs/*.typ)
 OUTPUT_DIR := ../docs
 OUTPUT := $(SRCS:%.typ=$(OUTPUT_DIR)/%.pdf)
 DEPDIR := .deps
