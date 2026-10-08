@@ -10,5 +10,6 @@
     monitor:       [Monitor and analyze WiFi traffic],
     build-managed: [Create a managed WiFi network],
     deauth:        [Perform and analyze a deauth attack on a WiFi network],
+    psk:           [Understand and perform attacks again WiFi pre-shared key authentication],
   ),
 )
