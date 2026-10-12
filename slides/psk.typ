@@ -241,3 +241,20 @@
     - Station installs keys and acknowledges
   ]
 ]
+
+#alternate(
+  title: [WPA2 Dictionary Attack],
+  image: licensed-image(
+    file: "/images/password.jpg",
+    license: "CC BY-NC 2.0",
+    author: [Simon Lieschke],
+    author-url: "https://openverse.org/image/collection?source=flickr&creator=Simon+Lieschke",
+    url: "https://www.flickr.com/photos/11397082@N00/226873460",
+    title: [Secure password of the week],
+  ),
+  text: [
+    - If you capture the handshake, you have everything you need to construct a MIC _except_ the PMK
+    - Using a dictionary you can guess PMK possibilities and compare MICs
+    - If the PSK is in the dictionary the MIC will match and you've cracked it!
+  ],
+)

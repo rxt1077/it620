@@ -60,6 +60,7 @@
         it,
       )
     ]
+    show image: it => align(center, it)
     [
       = #exercise-name
 

@@ -17,7 +17,7 @@
 
 == Background
 
-In this lab you will run the aircrack-ng tools on a Mininet-WiFi VM image demonstrate a WiFi deauth attack.
+In this lab you will run the aircrack-ng tools on a Mininet-WiFi VM image to demonstrate a WiFi deauth attack.
 
 == Installing aircrack-ng
 
