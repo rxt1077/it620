@@ -6,10 +6,13 @@
     waves:         [Explain how the properties of electromagnetic waves can be used to transmit information],
     problems:      [Recognize the unique problems of RF propagation],
   ),
-  "WiFi": (
+  "Administration": (
     monitor:       [Monitor and analyze WiFi traffic],
     build-managed: [Create a managed WiFi network],
+  ),
+  "Security": (
     deauth:        [Perform and analyze a deauth attack on a WiFi network],
     psk:           [Understand and perform attacks again WiFi pre-shared key authentication],
+    enterprise:    [Use WPA enterprise to authenticate users on a WiFi network],
   ),
 )

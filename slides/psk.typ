@@ -3,7 +3,7 @@
 #import "@preview/cntopo:0.1.0": cetz, fletcher-shapes
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 
-#let outcomes = ("monitor", "build-manage", "deauth", "psk")
+#let outcomes = ("monitor", "build-managed", "deauth", "psk")
 #let title = [Pre-Shared Key Attacks]
 
 #show: university-theme.with(

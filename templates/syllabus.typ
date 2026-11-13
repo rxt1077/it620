@@ -20,7 +20,7 @@
   course-materials: none,
   outcomes: none,
   outline: none,
-  base-url: "https://rxt1077.github.io/it610",
+  base-url: "https://rxt1077.github.io/it620",
   doc,
 ) = [
   #set page(
@@ -55,20 +55,6 @@
 
   #objective
 
-/*  #columns(2)[
-      == Grading
-
-      #for item in grading [
-        - #item
-      ]
-
-      #colbreak()
-      == Course Materials
-
-      #for item in course-materials [
-        - #item
-      ]
-  ] */
   #grid(
     columns: (1fr, 2fr),
     gutter: 10pt,

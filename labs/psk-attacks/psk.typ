@@ -84,7 +84,7 @@ Run the following command, `aircrack-ng -w passwords.txt wpa2net-01.cap` (your f
 After about a minute, you should be able to see the PSK!
 Make a note of it.
 
-No you can bring down the WPA2 network by typing `exit` in the xterm and in the Mininet-WiFi CLI.
+Now you can bring down the WPA2 network by typing `exit` in the xterm and in the Mininet-WiFi CLI.
 Then you can close the terminal and shutdown the VM.
 
 == Questions

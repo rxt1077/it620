@@ -4,6 +4,7 @@
 #show: doc => syllabus(
   course: [IT 620 Wireless Networks Security and Administration],
   office-hours: [12:00PM to 1:00PM on Thursdays and Fridays or via Zoom (email to schedule)],
+  base-url: "https://rxt1077.github.io/it620",
   objective: [
     This course introduces the fundamentals of wireless network security and administration.
     Topics include: wireless LAN vulnerabilities, passive and active wireless attacks, enterprise wireless hardware security, secure wireless authentication and communication, wireless intrusion detection and prevention systems, WiFi and cellular network management, location privacy, personal area network administration and security, mobile IP security, GSM, CDPD, 3G and 4G network security.
@@ -41,26 +42,26 @@
     (
       _type: "standard",
       week: [3],
-      slides: (),
+      slides: ("/slides/physical.typ",),
       labs: (),
     ),
     (
       _type: "standard",
       week: [4],
       slides: (),
-      labs: (),
+      labs: ("/labs/getting-started/getting-started.typ",),
     ),
     (
       _type: "standard",
       week: [5],
       slides: (),
-      labs: (),
+      labs: ("/labs/deauth/deauth.typ",),
     ),
     (
       _type: "standard",
       week: [6],
-      slides: (),
-      labs: (),
+      slides: ("/slides/psk.typ",),
+      labs: ("/labs/psk-attacks/psk.typ",),
     ),
     (
       _type: "exam",
