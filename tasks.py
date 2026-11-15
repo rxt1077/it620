@@ -39,7 +39,10 @@ def slides(c):
     path = Path('slides')
     for typst_slides in path.glob('*.typ'):
         pdf_slides = 'docs/slides/' + typst_slides.stem + '.pdf'
+        html_slides = 'docs/slides/' + typst_slides.stem + '.html'
         c.run(f'typst compile --root . {typst_slides} {pdf_slides}', echo=True, encoding='utf-8')
+        if typst_slides.stem in ["radius"]:
+           c.run(f'typst compile --root . --features html {typst_slides} {html_slides}', echo=True, encoding='utf-8')
 
 @task
 def syllabus(c):
